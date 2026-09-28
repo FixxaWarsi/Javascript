@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <main class="bookshelf-wrapper">
+        <header class="shelf-header">
+            <h1>The Reading Nook</h1>
+            <p>Explore, search, and collect your favorite reads.</p>
+        </header>
+
+        <!-- Search & Filters -->
+        <div class="controls-bar">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-input" placeholder="Search by title or author...">
+            </div>
+
+            <div class="category-pills" id="category-container">
+                <button class="pill active" data-category="all">All Books</button>
+                <button class="pill" data-category="Fiction">Fiction</button>
+                <button class="pill" data-category="Tech">Technology</button>
+                <button class="pill" data-category="Self-Help">Self-Help</button>
+                <button class="pill" data-category="Sci-Fi">Sci-Fi</button>
+            </div>
+        </div>
+
+        <!-- Books Grid -->
+        <div class="books-grid" id="books-grid">
+            <!-- Dynamic Cards -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

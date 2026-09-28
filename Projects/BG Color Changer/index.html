@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="color-card">
+        <h1>Background Color Changer</h1>
+        <p>Current Color: <span id="color-code">#FFFFFF</span></p>
+        
+        <div class="btn-container">
+            <button id="random-btn" class="btn">Generate Random Color</button>
+            <button id="reset-btn" class="btn reset">Reset to Default</button>
+        </div>
+
+        <div class="preset-colors">
+            <button class="preset-btn" style="background-color: #ff7675;" data-color="#ff7675"></button>
+            <button class="preset-btn" style="background-color: #74b9ff;" data-color="#74b9ff"></button>
+            <button class="preset-btn" style="background-color: #55efc4;" data-color="#55efc4"></button>
+            <button class="preset-btn" style="background-color: #ffeaa7;" data-color="#ffeaa7"></button>
+            <button class="preset-btn" style="background-color: #a29bfe;" data-color="#a29bfe"></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
